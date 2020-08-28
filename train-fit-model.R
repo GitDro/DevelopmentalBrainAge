@@ -70,3 +70,9 @@ xgb_final_mod <- boost_mod %>%
   finalize_model(best_xgb_params) %>%
   fit(scan_age ~ .,
       data = df_train_prep)
+
+
+# save mod
+saveRDS(xgb_final_mod, file = here::here(
+  "model", "xgboost_9to19_brain_age_mod.rds")
+  )
