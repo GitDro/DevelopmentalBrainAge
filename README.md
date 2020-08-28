@@ -5,6 +5,9 @@ This repository contains an early release of the model developed for predicting 
 > Deviations from typical brain development are associated with adversity, depression, and poor functional outcomes in at-risk youth (Drobinin, nd)
 
 
+![Prediction example](https://github.com/GitDro/DevelopmentalBrainAge/blob/master/figures/brainAge_forbow_bubble_MAE.pdf)
+
+
 ## Model description and requirements
 
 * The model requires FreeSurfer processed data, exported to tabulated HCP-wide style format. One individual per row, with brain features as separate columns. See `feature_list.txt` for feature list and naming convention.
@@ -24,6 +27,7 @@ install.packages(packageUrl, repos = NULL, type = 'source')
 
 ```{r}
 library(here) # OS agnostic relative paths (relative to project dir)
+library(tidyverse) # data wrangling tools and pipes
 library(tidymodels) # machine learning metaverse
 library(xgboost) # main engine, needs version 1.0.0.2, see above
 
