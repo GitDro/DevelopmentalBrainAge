@@ -4,6 +4,11 @@ This repository contains an early release of the model developed for predicting 
 
 > Deviations from typical brain development are associated with adversity, depression, and poor functional outcomes in at-risk youth (Drobinin, nd)
 
+## Data description
+
+![Data splits](https://github.com/GitDro/DevelopmentalBrainAge/blob/master/figures/Figure%20A%20B%20C%20for%20GitHub.png)
+
+## Model performance
 
 ![Prediction example](https://github.com/GitDro/DevelopmentalBrainAge/blob/master/figures/Example_fig_readme.JPG)
 
