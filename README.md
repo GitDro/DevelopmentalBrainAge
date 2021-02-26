@@ -2,15 +2,30 @@
 
 This repository contains an early release of the model developed for predicting brain age in individuals ages 9-19, used in:
 
-> Deviations from typical brain development are associated with adversity, depression, and poor functional outcomes in at-risk youth (Drobinin, nd)
+> The developmental brain age is associated with adversity, depression, and functional outcomes among adolescents (Drobinin, nd)
 
 ## Data description
 
-![Data splits](https://github.com/GitDro/DevelopmentalBrainAge/blob/master/figures/Figure%20A%20B%20C%20for%20GitHub.png)
+![Data splits](https://github.com/GitDro/DevelopmentalBrainAge/blob/master/figures/1.%20Brain%20age%2C%20age%20dist%2C%20data%20splits.png)
 
-## Model performance
+**Figure 1. A.** Brain age prediction scatterplot. The diagonal line represents perfect prediction accuracy. Dots represent individual age predictions from structural MRI. Dots above the line represent predicted age older than chronological age. Dots below the line represent a prediction of a younger appearing brain. **B.**  Age and sex distributions of all datasets.  **C.** Data splits representing training, validation and testing data. Typically developing control participants used for model training and validation. Trained model applied in independent at-risk sample (FORBOW). 
 
-![Prediction example](https://github.com/GitDro/DevelopmentalBrainAge/blob/master/figures/Example_fig_readme.JPG)
+Abbreviations: CV = Cross Validation, ABIDE = Autism Brain Imaging Data Exchange, CMI = Child Mind Institute: Healthy Brain Network, CORR = Consortium for Reliability and Reproducibility, NIH = The NIH MRI study of normal brain development, PING = Pediatric Imaging, Neurocognition, and Genetics, FORBOW = Families Overcoming Risks and Building Opportunities for Well-being
+
+
+## Brain age prediction
+
+![Model performance](https://github.com/GitDro/DevelopmentalBrainAge/blob/master/figures/2.%20Validation%20and%20Testing%20Scatterplot.png)
+
+**Figure 2**. Brain age prediction scatterplot showing predicted brain age by actual chronological age. **A.** Predicted age compared to scan age in validation (20% holdout) set. **B.** Brain age prediction in testing sample of at-risk adolescents (FORBOW). Line of best fit in magenta with confidence interval in blue. Warmer colors indicate a positive brain age gap (older appearing brain); cooler colors denote a negative brain age gap (younger appearing brain). 
+
+## Top neuroanatomical contributions
+
+![VIP](https://github.com/GitDro/DevelopmentalBrainAge/blob/master/figures/3.%20VIP.png)
+
+**Figure 3.** Top neuroanatomical structures involved in accurate age prediction. **A.** Variable importance of top 10 cortical volume features. Left: Stacked bar plot with right hemisphere, followed by left hemisphere importance. Right: Variable importance of all cortical regions visualized on 2D brain. **B.** Variable importance of top 10 subcortical volume features. Left: Stacked bar plot with right hemisphere followed by left hemisphere where applicable. Right: Variable importance of all subcortical regions visualized on 2D brain.
+
+Abbreviations: bankssts = Banks of the Superior Temporal Sulcus, DC = Diencephalon. CC = Corpus Callosum
 
 
 ## Model description and requirements
