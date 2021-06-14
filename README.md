@@ -1,6 +1,6 @@
 # Developmental Brain Age
 
-This repository contains an early release of the model developed for predicting brain age in individuals ages 9-19, used in:
+This repository contains an early release of the model developed for predicting brain age in developmental samples, created in:
 
 > The developmental brain age is associated with adversity, depression, and functional outcomes among adolescents (Drobinin, nd)
 
