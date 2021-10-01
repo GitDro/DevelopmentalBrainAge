@@ -1,8 +1,8 @@
 # Developmental Brain Age
 
-This repository contains an early release of the model developed for predicting brain age in developmental samples, created in:
+This repository contains the release of the model developed for predicting brain age in developmental samples, created in:
 
-> The developmental brain age is associated with adversity, depression, and functional outcomes among adolescents (Drobinin, nd)
+> Citation: Drobinin, V., Van Gestel, H., Helmick, C. A., Schmidt, M. H., Bowen, C. V., & Uher, R. (2021). The developmental brain age is associated with adversity, depression, and functional outcomes among adolescents. _[Biological Psychiatry. Cognitive Neuroscience and Neuroimaging](https://www.biologicalpsychiatrycnni.org/article/S2451-9022(21)00256-1/fulltext)._
 
 ## Data description
 
