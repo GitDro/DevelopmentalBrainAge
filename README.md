@@ -69,6 +69,9 @@ brain_age_df <-
   ) %>%
   # compute the brain age gap by subtracting chronological age from prediction
   mutate(gap = .pred - truth)
+
+# 2024: Note dependencies are likely quite out of date, consider a more native xgboost prediction
+test_out <- predict(xgb_mod$fit, newdata = as.matrix(your_df))
 ```
 
 4. Evaluate brain age prediction accuracy
